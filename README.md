@@ -1,5 +1,7 @@
 # DilCMS React PageModelRenderer
-Provides an importable library for using the PageModelRenderer to render the content of a page
+Provides an importable library for using the PageModelRenderer to render the content of a page.
+
+See [DilCMS Server](https://github.com/drkrompe/dilcms-server) for more on content serving.
 
 ## Installation
 npm
