@@ -1,0 +1,11 @@
+.dem-component-parsis {
+    padding: 5px;
+
+    &.outlined {
+        border: 1px solid blue;
+    }
+
+    .dropoff-point {
+        min-height: 15px;
+    }
+}

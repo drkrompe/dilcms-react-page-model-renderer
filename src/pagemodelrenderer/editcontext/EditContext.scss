@@ -1,0 +1,39 @@
+.dem-editor-header {
+    padding-top: 2px;
+    padding-bottom: 12px;
+    background: linear-gradient(180deg, rgba(141,183,236,1) 0%, rgba(162,190,226,1) 97%, rgba(44,66,94,1) 100%);
+    .dicms-logo {
+        border-radius: 12px;
+        background: gradi;
+        text-align: center;
+        background: radial-gradient(circle, rgba(224,225,221,1) 76%, rgba(152,157,145,1) 100%);
+        width: 75px;
+        display: flex;
+        padding: 14px;
+        margin-top: 12px;
+        margin-left: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #1B263B;
+
+        .color-alt {
+            color: #415A77;
+        }
+    }
+    
+}
+
+.dem-edit-context {
+    display: flex;
+    min-height: 100vh;
+
+    .edit-context {
+        width: 20%;
+        max-width: 225px;
+        background: linear-gradient(90deg, rgba(141,183,236,1) 0%, rgba(145,181,227,1) 50%, rgba(141,183,236,1) 97%);
+    }
+
+    .content-context {
+        width: 80%;
+    }
+}

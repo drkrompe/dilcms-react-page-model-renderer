@@ -1,0 +1,7 @@
+.button-container {
+    display: none;
+
+    &.clicked {
+        display: unset;
+    }
+}

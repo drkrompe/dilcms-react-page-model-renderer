@@ -1,0 +1,35 @@
+{
+  "name": "@drkrompe/dilcms-react-model-renderer",
+  "version": "1.0.0",
+  "description": "React Page Model Renderer",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "drkrompe",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "axios": "^0.19.2",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

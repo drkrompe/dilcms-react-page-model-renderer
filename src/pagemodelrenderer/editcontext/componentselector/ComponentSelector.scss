@@ -1,0 +1,10 @@
+.dem-component-selector{
+    padding: 10px;
+    border: 1px solid black;
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+}
